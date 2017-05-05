@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="15" total="46" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HEAL_PATIENT" duration-ms="1987221" started-at="2017-04-28T13:45:45Z" finished-at="2017-04-28T14:18:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1987221" started-at="2017-04-28T13:45:45Z" finished-at="2017-04-28T14:18:53Z">
+      <class name="test.patient.PaymentMethodsTest">
+        <test-method status="PASS" signature="testCheckRedirectToPaymentMethods()[pri:1, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testCheckRedirectToPaymentMethods" duration-ms="32946" started-at="2017-04-28T19:39:49Z" finished-at="2017-04-28T19:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckRedirectToPaymentMethods -->
+        <test-method status="PASS" signature="testElementsOfPayment()[pri:3, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testElementsOfPayment" duration-ms="199496" started-at="2017-04-28T19:40:22Z" finished-at="2017-04-28T19:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementsOfPayment -->
+        <test-method status="PASS" signature="testInvalidCardNumber()[pri:6, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testInvalidCardNumber" duration-ms="52059" started-at="2017-04-28T19:43:42Z" finished-at="2017-04-28T19:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCardNumber -->
+        <test-method status="PASS" signature="testInvalidExpirationDate()[pri:7, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testInvalidExpirationDate" duration-ms="74014" started-at="2017-04-28T19:44:34Z" finished-at="2017-04-28T19:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidExpirationDate -->
+        <test-method status="PASS" signature="testInvalidSecurityCode()[pri:8, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testInvalidSecurityCode" duration-ms="64126" started-at="2017-04-28T19:45:48Z" finished-at="2017-04-28T19:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSecurityCode -->
+        <test-method status="PASS" signature="testExpiryDateWithMMYYFormat()[pri:10, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testExpiryDateWithMMYYFormat" duration-ms="63945" started-at="2017-04-28T19:46:52Z" finished-at="2017-04-28T19:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpiryDateWithMMYYFormat -->
+        <test-method status="PASS" signature="testSecurityCodeWith4Digits()[pri:11, instance:test.patient.PaymentMethodsTest@32c8e539]" name="testSecurityCodeWith4Digits" duration-ms="47165" started-at="2017-04-28T19:47:56Z" finished-at="2017-04-28T19:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecurityCodeWith4Digits -->
+      </class> <!-- test.patient.PaymentMethodsTest -->
+      <class name="test.patient.RegisterTest">
+        <test-method status="PASS" signature="testSecurityCheckRedirectToRegisterPage()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testSecurityCheckRedirectToRegisterPage" duration-ms="13110" started-at="2017-04-28T19:21:38Z" finished-at="2017-04-28T19:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecurityCheckRedirectToRegisterPage -->
+        <test-method status="PASS" signature="testElementsOfRegisterPage()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testElementsOfRegisterPage" duration-ms="161358" started-at="2017-04-28T19:21:51Z" finished-at="2017-04-28T19:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementsOfRegisterPage -->
+        <test-method status="PASS" signature="testRegisterFormWithBlankData()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testRegisterFormWithBlankData" duration-ms="67716" started-at="2017-04-28T19:24:32Z" finished-at="2017-04-28T19:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterFormWithBlankData -->
+        <test-method status="PASS" signature="testBrowserbackButtonFlow()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testBrowserbackButtonFlow" duration-ms="45466" started-at="2017-04-28T19:25:40Z" finished-at="2017-04-28T19:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserbackButtonFlow -->
+        <test-method status="PASS" signature="testLogInLinkFlow()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testLogInLinkFlow" duration-ms="9742" started-at="2017-04-28T19:26:26Z" finished-at="2017-04-28T19:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInLinkFlow -->
+        <test-method status="PASS" signature="testRegisterWithValidData()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testRegisterWithValidData" duration-ms="38549" started-at="2017-04-28T19:26:35Z" finished-at="2017-04-28T19:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWithValidData -->
+        <test-method status="PASS" signature="testUnsupportedZipcodeElements()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testUnsupportedZipcodeElements" duration-ms="72793" started-at="2017-04-28T19:27:14Z" finished-at="2017-04-28T19:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsupportedZipcodeElements -->
+        <test-method status="PASS" signature="testUnsupportedZipcodeContinue()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testUnsupportedZipcodeContinue" duration-ms="27514" started-at="2017-04-28T19:28:27Z" finished-at="2017-04-28T19:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsupportedZipcodeContinue -->
+        <test-method status="PASS" signature="testRegisterWithExistingUserName()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testRegisterWithExistingUserName" duration-ms="20257" started-at="2017-04-28T19:28:54Z" finished-at="2017-04-28T19:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWithExistingUserName -->
+        <test-method status="PASS" signature="testPasswordMismatch()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testPasswordMismatch" duration-ms="20393" started-at="2017-04-28T19:29:14Z" finished-at="2017-04-28T19:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMismatch -->
+        <test-method status="PASS" signature="testConsistentErrorMessageForBlankFiled()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testConsistentErrorMessageForBlankFiled" duration-ms="41492" started-at="2017-04-28T19:29:35Z" finished-at="2017-04-28T19:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConsistentErrorMessageForBlankFiled -->
+        <test-method status="PASS" signature="testInvalidPhoneNumber()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testInvalidPhoneNumber" duration-ms="31843" started-at="2017-04-28T19:30:16Z" finished-at="2017-04-28T19:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPhoneNumber -->
+        <test-method status="PASS" signature="testValidInvalidEmailAddress()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testValidInvalidEmailAddress" duration-ms="86746" started-at="2017-04-28T19:30:48Z" finished-at="2017-04-28T19:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInvalidEmailAddress -->
+        <test-method status="PASS" signature="testValidInvalidPassword()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testValidInvalidPassword" duration-ms="151923" started-at="2017-04-28T19:32:15Z" finished-at="2017-04-28T19:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInvalidPassword -->
+        <test-method status="PASS" signature="testNormsAndConditionsLink()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="testNormsAndConditionsLink" duration-ms="73361" started-at="2017-04-28T19:34:47Z" finished-at="2017-04-28T19:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNormsAndConditionsLink -->
+      </class> <!-- test.patient.RegisterTest -->
+      <class name="test.patient.BookVisitTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.patient.BookVisitTest@7ce97ee5]" name="SetUp" is-config="true" duration-ms="21" started-at="2017-04-28T19:15:45Z" finished-at="2017-04-28T19:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="SetUp" is-config="true" duration-ms="0" started-at="2017-04-28T19:15:45Z" finished-at="2017-04-28T19:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.patient.PaymentMethodsTest@32c8e539]" name="SetUp" is-config="true" duration-ms="1" started-at="2017-04-28T19:15:45Z" finished-at="2017-04-28T19:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="SetUp" is-config="true" duration-ms="0" started-at="2017-04-28T19:15:45Z" finished-at="2017-04-28T19:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="testElementsOfBookVisitPage()[pri:0, instance:test.patient.BookVisitTest@7ce97ee5]" name="testElementsOfBookVisitPage" duration-ms="175743" started-at="2017-04-28T19:36:00Z" finished-at="2017-04-28T19:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementsOfBookVisitPage -->
+        <test-method status="PASS" signature="testYesEmergencyCase()[pri:0, instance:test.patient.BookVisitTest@7ce97ee5]" name="testYesEmergencyCase" duration-ms="53253" started-at="2017-04-28T19:38:56Z" finished-at="2017-04-28T19:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYesEmergencyCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.patient.BookVisitTest@7ce97ee5]" name="tearDown" is-config="true" duration-ms="9577" started-at="2017-04-28T19:48:43Z" finished-at="2017-04-28T19:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-04-28T19:48:53Z" finished-at="2017-04-28T19:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.patient.PaymentMethodsTest@32c8e539]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-04-28T19:48:53Z" finished-at="2017-04-28T19:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.patient.RegisterTest@4c4748bf]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-04-28T19:48:53Z" finished-at="2017-04-28T19:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.patient.BookVisitTest -->
+      <class name="test.patient.LoginTest">
+        <test-method status="PASS" signature="testSecurityCheckRedirectToLoginPage()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testSecurityCheckRedirectToLoginPage" duration-ms="22733" started-at="2017-04-28T19:15:45Z" finished-at="2017-04-28T19:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecurityCheckRedirectToLoginPage -->
+        <test-method status="PASS" signature="testElementsOfLoginPage()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testElementsOfLoginPage" duration-ms="121035" started-at="2017-04-28T19:16:08Z" finished-at="2017-04-28T19:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementsOfLoginPage -->
+        <test-method status="PASS" signature="testRegisterLinkFlow()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testRegisterLinkFlow" duration-ms="8056" started-at="2017-04-28T19:18:09Z" finished-at="2017-04-28T19:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterLinkFlow -->
+        <test-method status="PASS" signature="testLogInFormWithBlankData()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testLogInFormWithBlankData" duration-ms="51848" started-at="2017-04-28T19:18:17Z" finished-at="2017-04-28T19:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInFormWithBlankData -->
+        <test-method status="PASS" signature="testValidationOfLoginForm()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testValidationOfLoginForm" duration-ms="41037" started-at="2017-04-28T19:19:09Z" finished-at="2017-04-28T19:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidationOfLoginForm -->
+        <test-method status="PASS" signature="testNormsAndConditionsLink()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testNormsAndConditionsLink" duration-ms="77260" started-at="2017-04-28T19:19:50Z" finished-at="2017-04-28T19:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNormsAndConditionsLink -->
+        <test-method status="PASS" signature="testloginWithValidCredentails()[pri:0, instance:test.patient.LoginTest@7fe7c640]" name="testloginWithValidCredentails" duration-ms="30431" started-at="2017-04-28T19:21:07Z" finished-at="2017-04-28T19:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginWithValidCredentails -->
+      </class> <!-- test.patient.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- HEAL_PATIENT -->
+</testng-results>

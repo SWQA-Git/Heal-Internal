@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="352.400">
+  <properties />
+  
+  
+            <testcase name="testRegisterLinkFlow" time="8.056" classname="test.patient.LoginTest" />
+                <testcase name="testSecurityCheckRedirectToLoginPage" time="22.733" classname="test.patient.LoginTest" />
+                <testcase name="testNormsAndConditionsLink" time="77.260" classname="test.patient.LoginTest" />
+                <testcase name="testloginWithValidCredentails" time="30.431" classname="test.patient.LoginTest" />
+                <testcase name="testValidationOfLoginForm" time="41.037" classname="test.patient.LoginTest" />
+                <testcase name="testElementsOfLoginPage" time="121.035" classname="test.patient.LoginTest" />
+                <testcase name="testLogInFormWithBlankData" time="51.848" classname="test.patient.LoginTest" />
+      
+</testsuite>

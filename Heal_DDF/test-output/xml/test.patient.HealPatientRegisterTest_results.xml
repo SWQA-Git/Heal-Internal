@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="83.473">
+  <properties />
+  
+  
+            <testcase name="testNormsAndConditionsLink" time="68.882" classname="test.patient.HealPatientRegisterTest" />
+                <testcase name="testSecurityCheckRedirectToRegisterPage" time="14.591" classname="test.patient.HealPatientRegisterTest" />
+      
+</testsuite>

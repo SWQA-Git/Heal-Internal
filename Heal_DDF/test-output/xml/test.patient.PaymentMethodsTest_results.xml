@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="533.751">
+  <properties />
+  
+  
+            <testcase name="testCheckRedirectToPaymentMethods" time="32.946" classname="test.patient.PaymentMethodsTest" />
+                <testcase name="testSecurityCodeWith4Digits" time="47.165" classname="test.patient.PaymentMethodsTest" />
+                <testcase name="testInvalidSecurityCode" time="64.126" classname="test.patient.PaymentMethodsTest" />
+                <testcase name="testElementsOfPayment" time="199.496" classname="test.patient.PaymentMethodsTest" />
+                <testcase name="testExpiryDateWithMMYYFormat" time="63.945" classname="test.patient.PaymentMethodsTest" />
+                <testcase name="testInvalidExpirationDate" time="74.014" classname="test.patient.PaymentMethodsTest" />
+                <testcase name="testInvalidCardNumber" time="52.059" classname="test.patient.PaymentMethodsTest" />
+      
+</testsuite>

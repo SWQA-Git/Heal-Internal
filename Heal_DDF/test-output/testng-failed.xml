@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HEAL_PATIENT]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="lib.common.CustomListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.patient.PaymentMethodsTest">
+        <methods>
+          <include name="testInvalidExpirationDate"/>
+          <include name="testInvalidSecurityCode"/>
+          <include name="testInvalidCardNumber"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="testExpiryDateWithMMYYFormat"/>
+          <include name="testSecurityCodeWith4Digits"/>
+          <include name="testElementsOfPayment"/>
+        </methods>
+      </class> <!-- test.patient.PaymentMethodsTest -->
+      <class name="test.patient.RegisterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testValidInvalidPassword"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- test.patient.RegisterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [HEAL_PATIENT] -->

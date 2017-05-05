@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 28 19:15:45 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1987 seconds (1987221 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.patient.RegisterTest.testBrowserbackButtonFlow()'><b>testBrowserbackButtonFlow</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>45</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testCheckRedirectToPaymentMethods()'><b>testCheckRedirectToPaymentMethods</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>32</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testConsistentErrorMessageForBlankFiled()'><b>testConsistentErrorMessageForBlankFiled</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>41</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.BookVisitTest.testElementsOfBookVisitPage()'><b>testElementsOfBookVisitPage</b><br>Test class: test.patient.BookVisitTest</td>
+<td></td>
+<td>175</td>
+<td>test.patient.BookVisitTest@7ce97ee5</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testElementsOfLoginPage()'><b>testElementsOfLoginPage</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>121</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testElementsOfPayment()'><b>testElementsOfPayment</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>199</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testElementsOfRegisterPage()'><b>testElementsOfRegisterPage</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>161</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testExpiryDateWithMMYYFormat()'><b>testExpiryDateWithMMYYFormat</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>63</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testInvalidCardNumber()'><b>testInvalidCardNumber</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>52</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testInvalidExpirationDate()'><b>testInvalidExpirationDate</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>74</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testInvalidPhoneNumber()'><b>testInvalidPhoneNumber</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>31</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testInvalidSecurityCode()'><b>testInvalidSecurityCode</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>64</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testLogInFormWithBlankData()'><b>testLogInFormWithBlankData</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>51</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testLogInLinkFlow()'><b>testLogInLinkFlow</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>9</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testNormsAndConditionsLink()'><b>testNormsAndConditionsLink</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>77</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testNormsAndConditionsLink()'><b>testNormsAndConditionsLink</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>73</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testPasswordMismatch()'><b>testPasswordMismatch</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>20</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testRegisterFormWithBlankData()'><b>testRegisterFormWithBlankData</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>67</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testRegisterLinkFlow()'><b>testRegisterLinkFlow</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>8</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testRegisterWithExistingUserName()'><b>testRegisterWithExistingUserName</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>20</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testRegisterWithValidData()'><b>testRegisterWithValidData</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>38</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testSecurityCheckRedirectToLoginPage()'><b>testSecurityCheckRedirectToLoginPage</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>22</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testSecurityCheckRedirectToRegisterPage()'><b>testSecurityCheckRedirectToRegisterPage</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>13</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.PaymentMethodsTest.testSecurityCodeWith4Digits()'><b>testSecurityCodeWith4Digits</b><br>Test class: test.patient.PaymentMethodsTest</td>
+<td></td>
+<td>47</td>
+<td>test.patient.PaymentMethodsTest@32c8e539</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testUnsupportedZipcodeContinue()'><b>testUnsupportedZipcodeContinue</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>27</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testUnsupportedZipcodeElements()'><b>testUnsupportedZipcodeElements</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>72</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testValidInvalidEmailAddress()'><b>testValidInvalidEmailAddress</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>86</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.RegisterTest.testValidInvalidPassword()'><b>testValidInvalidPassword</b><br>Test class: test.patient.RegisterTest</td>
+<td></td>
+<td>151</td>
+<td>test.patient.RegisterTest@4c4748bf</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testValidationOfLoginForm()'><b>testValidationOfLoginForm</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>41</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+<tr>
+<td title='test.patient.BookVisitTest.testYesEmergencyCase()'><b>testYesEmergencyCase</b><br>Test class: test.patient.BookVisitTest</td>
+<td></td>
+<td>53</td>
+<td>test.patient.BookVisitTest@7ce97ee5</td></tr>
+<tr>
+<td title='test.patient.LoginTest.testloginWithValidCredentails()'><b>testloginWithValidCredentails</b><br>Test class: test.patient.LoginTest</td>
+<td></td>
+<td>30</td>
+<td>test.patient.LoginTest@7fe7c640</td></tr>
+</table><p>
+</body>
+</html>
